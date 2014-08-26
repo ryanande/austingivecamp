@@ -1,3 +1,3 @@
 @echo off
 echo Deploying files...
-xcopy %DEPLOYMENT_SOURCE%\src\* %DEPLOYMENT_TARGET% /Y /s 
+robocopy %DEPLOYMENT_SOURCE%\src\ %DEPLOYMENT_TARGET% /MIR
